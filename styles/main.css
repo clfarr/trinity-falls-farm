@@ -115,26 +115,29 @@ footer {
 }
 
 .product-item {
-    background-color: #006666;
+    background-color: #fff8f0;
     padding: 20px;
     margin-bottom: 20px;
-    border-left: 4px solid #006666;
+    border-left: 4px solid #ff6b6b;
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .product-item h4 {
-    color: #2c5f2d;
+    color: #006666;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 .product-item p {
     margin-bottom: 8px;
+    color: #333;
 }
 
 .product-item strong {
-    color: #006666;
+    color: #ff6b6b;
 }
+
 
 /* CONTACT FORM */
 .contact-form {
