@@ -52,11 +52,10 @@ nav a:hover {
     background-color: #ff8787;
 }
 
-/* MAIN */
-main {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 40px;
+/* CENTER WELCOME SECTION */
+main section:first-child {
+    text-align: center;
+    padding: 0 40px;
 }
 
 /* SECTIONS */
