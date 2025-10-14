@@ -61,9 +61,12 @@ main {
 /* CENTER WELCOME SECTION */
 main section:first-child {
     text-align: center;
-    padding: 0 40px;
+    padding: 40px; 80px;
 }
-
+/* ADD PADDING TO WHAT WE OFFER SECTION */
+main section:nth-child(2) {
+    padding: 30px 60px;
+}
 /* SECTIONS */
 section {
     margin-bottom: 40px;
