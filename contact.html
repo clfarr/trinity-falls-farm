@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Trinity Falls Farm</title>
+    <!-- Link to our custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- HEADER - Same as other pages -->
+    <header>
+        <h1>Trinity Falls Farm</h1>
+        <p>Heritage Breeds & Farm Fresh Goodness</p>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have questions about our products or want to place an order? Fill out the form below and we'll get back to you soon!</p>
+        </section>
+
+        <!-- CONTACT FORM -->
+        <section>
+            <form action="#" method="POST" class="contact-form">
+                
+                <!-- Full Name Field - REQUIRED -->
+                <div class="form-group">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <!-- Email Field - REQUIRED -->
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Comment Field - REQUIRED -->
+                <div class="form-group">
+                    <label for="comment">Message/Comment *</label>
+                    <textarea id="comment" name="comment" rows="6" required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+
+                <p class="form-note">* Required fields</p>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2024 Trinity Falls Farm. All rights reserved.</p>
+    </footer>
+</body>
+</html>

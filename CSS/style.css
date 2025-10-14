@@ -1,0 +1,191 @@
+/* RESET - Makes all browsers display things the same way */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY - Overall page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* HEADER - Top section with farm name and navigation */
+header {
+    background-color: #2c5f2d;  /* Dark green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION - Menu links */
+nav ul {
+    list-style: none;  /* Removes bullet points */
+    display: flex;  /* Makes links go horizontal */
+    justify-content: center;  /* Centers the links */
+    gap: 20px;  /* Space between links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;  /* Removes underline */
+    font-size: 1.1em;
+    padding: 10px 20px;
+    background-color: #4a7c59;  /* Lighter green */
+    border-radius: 5px;  /* Rounded corners */
+    transition: background-color 0.3s;  /* Smooth color change */
+}
+
+nav a:hover {
+    background-color: #5d9a6f;  /* Even lighter green when you hover */
+}
+
+/* MAIN CONTENT - The middle part of the page */
+main {
+    max-width: 1000px;  /* Keeps content from being too wide */
+    margin: 0 auto;  /* Centers the content */
+    padding: 40px 20px;
+}
+
+/* SECTIONS - Each content block */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #2c5f2d;
+    font-size: 2em;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #2c5f2d;
+    padding-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* LISTS - For "What We Offer" section */
+section ul {
+    list-style-position: inside;
+    font-size: 1.1em;
+}
+
+section li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+/* FOOTER - Bottom of the page */
+footer {
+    background-color: #2c5f2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE - Makes it look good on phones */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;  /* Stacks links vertically on small screens */
+        gap: 10px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+}
+/* SHOP PAGE STYLES */
+.products {
+    margin-top: 30px;
+}
+
+.product-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 4px solid #2c5f2d;
+    border-radius: 5px;
+}
+
+.product-item h4 {
+    color: #2c5f2d;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    margin-bottom: 8px;
+}
+
+.product-item strong {
+    color: #2c5f2d;
+}
+/* CONTACT FORM STYLES */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #2c5f2d;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #2c5f2d;
+}
+
+.form-group button {
+    background-color: #2c5f2d;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #4a7c59;
+}
+
+.form-note {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
