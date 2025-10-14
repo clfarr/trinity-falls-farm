@@ -125,8 +125,9 @@ footer {
 
 .product-item h4 {
     color: #006666;
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .product-item p {
