@@ -202,3 +202,24 @@ footer {
     font-style: italic;
     margin-top: 10px;
 }
+
+/* GALLERY IMAGE ALIGNMENT FIX */
+.col-md-4 {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-md-4 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.col-md-4 p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
